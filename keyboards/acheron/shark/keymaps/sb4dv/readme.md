@@ -1,10 +1,14 @@
-## SB4DV Keymap
+# SB4DV Keymap
+
+## Background
 The **S**mall **B**oard **4** **D**vorak & **V**im (**SB4DV**) keymap is the eldritch fusion of these three grand designs:
  - Focus on US-Dvorak.
  - Vim-style navigation cluster.
  - Small enough to be adapted to many Ortho/Ergo boards running QMK.
 
 The SB4DV keymap uses only 34 keys. The top 30 keys are just the alphas. There are no outer modifiers like with the [Atreus42](https://atreus.technomancy.us/), but unlike the Atreus, the full bottom row has been reduced to just 4 keys. Between the outermost layer change keys (Mods & Nums), there are only the shift and space keys.
+
+## How To
 
 So how does one access the modifiers?
  - Hold Mods + Tap E = Enter
@@ -39,3 +43,7 @@ And navigation?
  - Hold Mods + Hold Nums + Tap L = End
  - Hold Mods + Hold Nums + Tap K = Page Up
  - Hold Mods + Hold Nums + Tap J = Page Down
+
+## Flashing Instructions
+
+See this keyboard folder's [README.md](../../README.md)
