@@ -58,8 +58,8 @@ enum layers {
 #define KC_S2 KC_SCROLLLOCK
 #define KC_T1 KC_TAB
 #define KC_T2 KC_T1
-#define KC_U1 KC_CAPS
-#define KC_U2 KC_U1
+#define KC_U1 KC_U
+#define KC_U2 KC_CAPS
 #define KC_V1 KC_V
 #define KC_V2 KC_V
 #define KC_W1 OSM(MOD_LGUI)
