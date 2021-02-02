@@ -119,17 +119,3 @@ enum layers {
 #define __NUMS_INNER_RIGHT_R2__ KC_F6,   KC_F7,   KC_F8,   KC_F9,   KC_F10
 #define __NUMS_INNER_RIGHT_R3__ KC_6,    KC_7,    KC_8,    KC_9,    KC_0
 #define __NUMS_INNER_RIGHT_R4__ KC_F12,  KC_EQL,  KC_MINS, KC_SLSH, KC_BSLS
-
-// Layer 4 (WASD), Left Side Inner Keys
-#define __WASD_INNER_LEFT_R2__ KC_NO,   KC_NO,   KC_ENT,  KC_NO,   KC_NO
-#define __WASD_INNER_LEFT_R3__ KC_LEFT, KC_DOWN, KC_RGHT, KC_NO,   KC_NO
-#define __WASD_INNER_LEFT_R4__ KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO
-
-// Layer 4 (WASD), Right Side Inner Keys
-#define __WASD_INNER_RIGHT_R2__ KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO
-#define __WASD_INNER_RIGHT_R3__ KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO
-#define __WASD_INNER_RIGHT_R4__ KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO
-
-
-
-
