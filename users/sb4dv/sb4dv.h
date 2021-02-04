@@ -1,16 +1,21 @@
 #pragma once
 
-#include "quantum.h"
+#include QMK_KEYBOARD_H
 
-/*
-// This typically goes into the keymap.c instead.
+
 enum layers {
   _DVORAK = 0,
   _MODS1,
   _NUMS,
-  _MODS2
+  _MODS2,
+  _WASD
 };
-*/
+
+#define TEHS MT(MOD_RSFT, KC_ENT)
+
+#define TEHW LT(_WASD, KC_ESC)
+
+#define TEHM LT(_WASD, KC_MINS)
 
 #define MODS MO(_MODS1)
 #define NUMS MO(_NUMS)
