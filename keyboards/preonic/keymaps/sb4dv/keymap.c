@@ -1,4 +1,4 @@
-/* Copyright 2019
+/* Copyright 2021
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -34,11 +34,11 @@ extern keymap_config_t keymap_config;
     K21, K22, K23, K24, K25, K26, K27, K28, K29, K2A  \
   ) \
   LAYOUT_ortho_5x12( \
-    KC_NO,   KC_1,   KC_2,    KC_3,     KC_4,    KC_5,    KC_6,    KC_7,    KC_8,    KC_9,    KC_0,    KC_NO, \
-    KC_TAB,  K01,    K02,     K03,      K04,     K05,     K06,     K07,     K08,     K09,     K0A,     KC_BSPC, \
-    TEHW,    K11,    K12,     K13,      K14,     K15,     K16,     K17,     K18,     K19,     K1A,     TEHM, \
-    KC_LSFT, K21,    K22,     K23,      K24,     K25,     K26,     K27,     K28,     K29,     K2A,     TEHS,  \
-    KC_LCTL, KC_LGUI, KC_LALT, MODS, _______,  KC_LSFT,  _______,  KC_SPC,  NUMS,    KC_RALT, KC_RGUI, KC_RCTL  \
+    KC_NO,   KC_1,    KC_2,    KC_3,    KC_4,    KC_5,    KC_6,    KC_7,    KC_8,    KC_9,    KC_0,    KC_NO, \
+    KC_TAB,  K01,     K02,     K03,     K04,     K05,     K06,     K07,     K08,     K09,     K0A,     KC_BSPC, \
+    TEHW,    K11,     K12,     K13,     K14,     K15,     K16,     K17,     K18,     K19,     K1A,     TEHM, \
+    KC_LSFT, K21,     K22,     K23,     K24,     K25,     K26,     K27,     K28,     K29,     K2A,     TEHS,  \
+    KC_LCTL, KC_LGUI, KC_LALT, MODS,    _______, KC_SPC,  _______, KC_LSFT, NUMS,    KC_RALT, KC_RGUI, KC_RCTL  \
   )
 #define LAYOUT_ortho_5x12_base_wrapper(...)       LAYOUT_ortho_5x12_base(__VA_ARGS__)
 
